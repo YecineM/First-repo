@@ -1,9 +1,10 @@
 """
 It's about :
+
 ********************************************
  *********** Character Encoding ***********
   ***********                  ***********
-   ***********      give      ***********
+   ***********     encode     ***********
     ***********    input     ***********
      ***********   in any   ***********
       *********** language ***********
@@ -23,9 +24,13 @@ On Python:
            the desired encoding.
         •) str objects have a method called:
            encode()
+        •) str() is a built-in function
+           that takes an "encoding" argument.
         •) bytes() is a built-in function
-           that takes an "encode" argument.
+           that takes an "encoding" argument.
+
 Little intro:
+
 1) Fixed-width encoding
     *) ASCII (7 bits)
     *) ANSI (8 bits = 1 byte)
@@ -46,7 +51,9 @@ BE vs LE: Big Endianness vs Little Endianness describes byte order.
 In a multi-byte number or code unit,
 some CPUs read and write the high bytes first ==> big endian CPU
 Others read the low bytes first ==> little endian.
+
 BOM: byte order marker
+
 """
 
 # defining functions (the hard part !!!):
@@ -297,7 +304,9 @@ with open("utf16be.txt","bw") as f:
 with open("utf16be.txt",
          encoding="utf-16") as f:
          # the absence of endianness suffix
-         # will imply that I put the BOM
+         # in the codec name passed to
+         # the open() function
+         # implies that I put the BOM
          # at the start.
          # If I chose be or le , Python
          # will assume I wrote the bytes in
