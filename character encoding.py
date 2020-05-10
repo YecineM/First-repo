@@ -66,6 +66,9 @@ b2d=lambda x:int(x,2) # binary str to decimal
 # getting rid of the annoying leading '0b'
 import builtins
 bin=lambda x:builtins.bin(x)[2:]
+
+# or: bin=lambda x:f"{x:b}"
+# (formatted str doesn't add 0b)
             
 # Now the only easy encoding !!! : 
 def utf32(text,be):    # BE stands for
