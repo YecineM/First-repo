@@ -16,7 +16,7 @@ So,
     I'm a pharmacy student, but I like coding.
     I love maths too.
     I recently fell in love with history..
-    I think I'll have to give up one my hobbies,
+    I think I'll have to give up one of my hobbies,
     It's just too much.
     
 See what I'm doing here ?
