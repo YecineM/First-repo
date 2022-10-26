@@ -192,7 +192,7 @@ def utf16(text,be):
           # (excluding the little
            # range for surrogates,
             # which is
-             # 10+1 bytes wide)
+             # 10+1 bits wide)
              #
              ls.extend(
              [cp//2**8,cp%2**8][::1 if be \
