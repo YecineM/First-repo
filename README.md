@@ -3,7 +3,7 @@ This repository is my first one on GitHub.
 I code in Python, but I also have made many projects using Selenium IDE.
 I like Javascript, but I'm a total beginner in it.
 
-I will deposit some Python code bits I have written on SoloLearn.
+I will deposit some Python code bits I have written elsewhere.
 I hope you like them.
 
 So, 
